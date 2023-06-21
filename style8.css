@@ -1,0 +1,938 @@
+*{
+	margin: 0;  padding:  0; box-sizing: border-box;
+}
+ 
+
+.text-box h1{
+	font-size:62px;
+	font-family: 'Oswald', sans-serif;
+	margin: 0px 0px 0px 0px;
+	padding-up: 40px;
+	position: absolute;
+	top:1%;	
+	left:2%;
+	color:white;
+}
+
+
+
+
+section p{
+	 
+	font-size: 14px;
+	font-family: 'Oswald', sans-serif;
+	position:absolute;
+	top:12%;
+	left:11%;
+	font-weight: 800;
+	color:white;
+	 
+
+}
+
+.DNT{
+	 
+	position: absolute;
+	top: 3%;
+	color:#fff;
+
+}
+
+
+ 
+ 
+
+
+
+
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	--main-color:#283526;
+	--primry-color: #888888;
+	--button-background: #4b709e;
+	--primary-button-background:#fe7649;
+	--background-color: #e2efff;
+}
+
+li,button{
+	font-family:"muli";
+	color:var(--primry-color);
+}
+
+a {
+	text-decoration: none;
+    cursor:pointer;
+	 
+}
+
+li{
+	list-style: none;
+}
+
+button{
+	padding: 1rem 3rem;
+	border-radius: 2rem;
+	border: none;
+	outline: none;
+	line-height: 3.6rem;
+	text-transform: caitalize;
+	cursor: pointer;
+	font-weight: normal;
+    font-size:1.5rem;
+}
+
+
+
+/*---------------main menu--------------*/
+
+nav{
+	padding: 0 20rem;
+}
+
+nav{
+	display:flex;
+	justify-content: space-between;
+	 
+	align-items: center;
+	width: 100%;
+	height: 10rem;
+	background-color:  black;
+	font-family: 'Oswald', sans-serif;
+	 
+
+}
+
+
+
+}
+
+nav .left-side-menu{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 50%;
+
+
+
+     
+}
+
+
+nav .left-side-menu .sub-menu {
+	display: flex;
+	height:inherit;
+	padding: 30px;
+    font-family: 'Oswald', sans-serif;	 
+
+}
+
+nav .left-side-menu .sub-menu a {
+	margin-right:2rem;
+}
+
+
+
+nav .left-side-menu .sub-menu a li{
+	font-size:1.2rem;
+	line-height: 3.8rem;
+	transition:all 0.2s;
+	color: #fff;
+	font-family: 'Oswald', sans-serif; 
+}
+
+nav  .left-side-menu .sub-menu a li:hover{
+ 
+	color:  #857C90 ;
+	 
+}
+
+/*----------RIGHT-SIDE--------------------*/
+
+nav .right-side-menu .sub-menu{
+
+	width:100%;
+	height:inherit;
+	display:flex;
+	align-items: center;
+	justify-content: flex-end;
+
+ 
+	 
+}
+nav .right-side-menu .sub-menu a li{
+	margin-right:0.1rem;
+	padding:0.7rem 2rem;
+	color:#fff;
+	 
+	font-size: 1.2rem;
+	border-radius:1rem;
+	 
+	position: absolute;
+	right:14%;
+	top: 8%;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+nav .right-side-menu .sub-menu button{
+	padding: 0.1rem 1.3rem;
+	background-color: var(--button-background);
+    color: white;
+    transition:0.2s;
+     
+	position: absolute;
+	right:4%;
+	font-family: 'Oswald', sans-serif;
+}
+
+nav .right-side-menu .sub-menu button:hover{
+	background: #1b3d68;
+}
+
+/*1ST IMAGE*/
+
+
+.container{
+	width:32%;
+	height: 310px;
+	position: absolute;
+	top: 41%;
+	left:17%;
+	transform:  translate(-50%,-50%);    
+}
+
+
+
+.overlay{
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom:0;
+	background: transparent;
+	transition: background 0.4s ease-in-out;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+img{
+	height:100%;
+	width:100%;
+	border-radius: 15px; 
+}
+
+.content h1{
+	color: white;
+	position:absolute;
+    font-family: 'Oswald', sans-serif;
+	bottom:6%;
+	left:39%;
+	opacity:1;
+	transition:0.5s;
+	font-size: 40px;
+}
+
+.overlay:hover {
+	opacity: 1;
+	background:lightblue;
+}
+
+.overlay:hover h1{
+	bottom:59%;
+}
+
+
+/*2ND PICTURE*/
+
+
+
+
+.container2{
+	width:32%;
+	height:310px;
+	position: absolute;
+	top: 86%;
+	left:17%;
+	transform:  translate(-50%,-50%);    
+}
+
+
+
+.overlay2{
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom:0;
+	background: transparent;
+	transition: background 0.4s ease-in-out;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+img{
+	height:100%;
+	width:100%;
+	border-radius: 15px; 
+	
+}
+
+.container2 img{
+	opacity: 0.7;
+}
+
+.content2 h1{
+	color: white;
+	position:absolute;
+    font-family: 'Oswald', sans-serif;
+	bottom:6%;
+	left:39%;
+	opacity:1;
+	transition:0.5s;
+	font-size: 40px;
+}
+
+.overlay2:hover {
+	opacity: 1;
+	background:lightblue;
+}
+
+.overlay2:hover h1{
+	bottom:59%;
+}
+
+
+/*3RD PICTURE*/
+
+
+.container3{
+	width:32%;
+	height:310px;
+	position: absolute;
+	top: 41%;
+	left:50%;
+	transform:  translate(-50%,-50%);    
+}
+
+
+
+.overlay3{
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom:0;
+	background: transparent;
+	transition: background 0.4s ease-in-out;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+img{
+	height:100%;
+	width:100%;
+	border-radius: 15px; 
+}
+
+.content3 h1{
+	color: white;
+	position:absolute;
+    font-family: 'Oswald', sans-serif;
+	bottom:6%;
+	left:39%;
+	opacity:1;
+	transition:0.5s;
+	font-size: 40px;
+}
+
+.overlay3:hover {
+	opacity: 1;
+	background:lightblue;
+}
+
+.overlay3:hover h1{
+	bottom:59%;
+}
+
+
+/*4TH PICTURE*/
+
+
+.container4{
+	width:32%;
+	height:310px;
+	position: absolute;
+	top: 86%;
+	left:50%;
+	transform:  translate(-50%,-50%);    
+}
+
+
+
+.overlay4{
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom:0;
+	background: transparent;
+	transition: background 0.4s ease-in-out;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+img{
+	height:100%;
+	width:100%;
+	border-radius: 15px; 
+}
+
+.content4 h1{
+	color: white;
+	position:absolute;
+    font-family: 'Oswald', sans-serif;
+	bottom:6%;
+	left:39%;
+	opacity:1;
+	transition:0.5s;
+	font-size: 40px;
+}
+
+.overlay4:hover {
+	opacity: 1;
+	background:lightblue;
+}
+
+.overlay4:hover h1{
+	bottom:59%;
+}
+
+	 
+ 
+
+/*5th image*/
+
+.container5{
+	width:32%;
+	height: 310px;
+	position: absolute;
+	top: 41%;
+	left:83%;
+	transform:  translate(-50%,-50%);    
+}
+
+
+
+.overlay5{
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom:0;
+	background: transparent;
+	transition: background 0.4s ease-in-out;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+img{
+	height:100%;
+	width:100%;
+	border-radius: 15px; 
+}
+
+.content5 h1{
+	color: white;
+	position:absolute;
+    font-family: 'Oswald', sans-serif;
+	bottom:6%;
+	left:39%;
+	opacity:1;
+	transition:0.5s;
+	font-size: 40px;
+}
+
+.overlay5:hover {
+	opacity: 1;
+	background:lightblue;
+}
+
+.overlay5:hover h1{
+	bottom:59%;
+}
+
+
+/*6th image*/
+
+.container6{
+	width:32%;
+	height: 310px;
+	position: absolute;
+	top: 86%;
+	left:83%;
+	transform:  translate(-50%,-50%);    
+}
+
+
+
+.overlay6{
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom:0;
+	background: transparent;
+	transition: background 0.4s ease-in-out;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+img{
+	height:100%;
+	width:100%;
+	border-radius: 15px; 
+}
+
+.content6 h1{
+	color: white;
+	position:absolute;
+    font-family: 'Oswald', sans-serif;
+	bottom:6%;
+	left:39%;
+	opacity:1;
+	transition:0.5s;
+	font-size: 40px;
+}
+
+.overlay6:hover {
+	opacity: 1;
+	background:lightblue;
+}
+
+.overlay6:hover h1{
+	bottom:59%;
+}
+
+
+
+
+/*-----------------------------opacity---------------------
+---------------------------------------------------------------------------------*/
+
+
+.container img {
+	opacity: 0.7;
+}
+
+
+.container3 img {
+	opacity: 0.7;
+}
+
+
+.container4 img {
+	opacity: 0.7;
+}
+
+
+.container5 img {
+	opacity: 0.7;
+}
+
+.container6 img {
+	opacity: 0.7;
+}
+/*-----------second-scroll----------------------------
+------------------------------*/
+ 
+
+
+.hero-left-side{
+	position: absolute;
+	top:110%;
+	border-top: 2px solid black;
+	width:97%;	 
+	font-family: 'DM Serif Display', serif;
+	font-size: 36px;
+	left:3%;
+
+    	 
+}
+
+
+.VL{
+	border-left: 3px solid black;
+	height:1230px;
+	position: absolute;
+	left: 900px;
+    border-top: 3px solid black;
+    width:39%;
+    font-size: 36px;
+}
+
+
+.VL h2{
+	padding-left: 2rem;
+	padding-top: 3rem;
+}
+      
+/*-------------------first article-------------
+-----------------------------------*/
+.boxx{
+	width:60%;
+	height: 235px;
+	position: absolute;
+	top: 127%;
+	left:2%;
+   
+}
+
+.boxx img{
+	width:35%;
+
+}
+
+.title h2{
+	color: black;
+	position: absolute;
+	top: 1%;
+	left:37%;
+	font-size: 30px;
+} 
+
+ 
+.title p{
+	color: black;
+	position: absolute;
+	top: 58%;
+	left:37%;
+
+}
+
+
+/*-------------------2nd article-------------
+-----------------------------------*/
+.boxx2{
+	width:60%;
+	height: 235px;
+	position: absolute;
+	top: 161%;
+	left:2%;
+   
+}
+
+.boxx2 img{
+	width:35%;
+
+}
+
+.title2 h2{
+	color: black;
+	position: absolute;
+	top: 1%;
+	left:37%;
+	font-size: 30px;
+} 
+
+ 
+.title2 p{
+	color: black;
+	position: absolute;
+	top: 58%;
+	left:37%;
+
+}
+
+
+
+/*-------------------3rd article-------------
+-----------------------------------*/
+.boxx3{
+	width:60%;
+	height: 235px;
+	position: absolute;
+	top: 195%;
+	left:2%;
+   
+}
+
+.boxx3 img{
+	width:35%;
+
+}
+
+.title3 h2{
+	color: black;
+	position: absolute;
+	top: 1%;
+	left:37%;
+	font-size: 30px;
+} 
+
+ 
+.title3 p{
+	color: black;
+	position: absolute;
+	top: 58%;
+	left:37%;
+
+}
+
+
+/*-------------------4th article-------------
+-----------------------------------*/
+.boxx4{
+	width:60%;
+	height: 235px;
+	position: absolute;
+	top: 229%;
+	left:2%;
+   
+}
+
+.boxx4 img{
+	width:35%;
+
+}
+
+.title4 h2{
+	color: black;
+	position: absolute;
+	top: 1%;
+	left:37%;
+	font-size: 30px;
+} 
+
+ 
+.title4 p{
+	color: black;
+	position: absolute;
+	top: 58%;
+	left:37%;
+
+}
+
+
+/*-------------------5th article-------------
+-----------------------------------*/
+.boxx5{
+	width:60%;
+	height: 235px;
+	position: absolute;
+	top: 263%;
+	left:2%;
+   
+}
+
+.boxx5 img{
+	width:35%;
+
+}
+
+.title5 h2{
+	color: black;
+	position: absolute;
+	top: 1%;
+	left:37%;
+	font-size: 30px;
+} 
+
+ 
+.title5 p{
+	color: black;
+	position: absolute;
+	top: 58%;
+	left:37%;
+
+}
+
+/*-------------------right-side-------------
+-----------------------------------*/
+ 
+
+.bottom-part{
+	height:450px;
+	width:100%;
+	background:black;
+	position: absolute;
+	top: 300%;
+	 
+}
+
+
+
+/*-----------------------------latest--------------
+-----------------------------------------------------------*/
+
+
+.picA1{
+	width:88%;
+	height:480px;
+	 
+	margin-left: 2rem;
+	margin-top: 3rem;
+}
+
+.picA1 img{
+       height:73%;
+}
+
+.picA1 h2{
+	font-size: 30px;
+	padding-top: 0rem;
+	padding-left: 0rem;
+}
+
+.picA1 p{
+	 
+	color: black;
+	position: absolute;
+	top:55%;
+	left:6%;
+}
+
+.icons{
+	position: absolute;
+	color:white;
+	top:25%;
+	left:5%;
+	font-size: 33px;
+	cursor:pointer;
+
+}
+
+.icon2{
+	position: absolute;
+	color:blue;
+	top:37%;
+	left:5.2%;
+	font-size: 29px;
+	cursor:pointer;
+}
+
+.icon3{
+	position: absolute;
+	color:#fff;
+	top:49%;
+	left:5.2%;
+	font-size: 29px;
+	cursor:pointer;
+
+}
+
+
+
+
+.fa-twitter{
+	color:white;
+}
+
+.fa-facebook{
+	color:white;
+}
+
+.fa-linkedin{
+	color:white;
+}
+
+
+
+/*------------------------------------hovering-icons---------------------
+--------------------------------------------------------------------------------*/
+.icons a i:hover{
+	   color:#9585A4;
+
+}	
+
+
+
+.icon2 a i:hover{
+	   color:#9585A4;
+
+}
+
+
+.icon3 a i:hover{
+	   color:#9585A4;
+
+}
+
+
+/*---------------------------------------transition-icons----------------------------------
+-----------------------------------------------------------------------------------------------*/
+.icons a i{
+	 transition: 0.3s;
+
+}
+
+.icon2 a i{
+	 transition: 0.3s;
+
+}
+
+.icon3 a i{
+	 transition: 0.3s;
+
+}	
+
+
+
+/*--------------logo-down--------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+*/
+
+.text-box1{
+
+	position: absolute;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 38px;
+	left:15%;
+	top:20%;
+
+}
+
+.text-box2 i{
+	position: absolute;
+	left:15%;
+	top:41%;
+	color: #76707C;
+
+
+}
+.text-box2 p{
+	position: absolute;
+	left:17.3%;
+	top:40.4%;
+	display: flex;
+	color: #76707C;
+	font-family: 'Oswald', sans-serif;
+}	
+ 
+.about-sec{
+	font-family: 'Oswald', sans-serif;
+	position: absolute;
+	width: 400px;
+	height: 200px;
+	text-rendering: optimizeLegibility;
+	top:55%;
+	left:15.3%;
+	 
+}
+
+.about-sec h3{
+	color: #858485;
+} 
+.about-sec p{
+	position: absolute;
+	left:0%;
+	top:19%;
+	color: #858485;
+}
+ 	 
